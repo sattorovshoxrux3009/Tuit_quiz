@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Open-Sans;
+    src: url(./fonts/OpenSans.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    font-family: Open-Sans, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #2A254B;
+}
+.container{
+    max-width: 1540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+button{
+    cursor: pointer;
+}
