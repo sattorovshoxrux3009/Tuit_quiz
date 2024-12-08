@@ -99,7 +99,7 @@ function Main({setOnQuiz,select,setSelect,number,setNumber}) {
     {modalShow && <div className='modal'>
         <div className="container">
           <h1 className="modal-title">Siz {score} ta savolga to'g'ri javob berdingiz {score/Data.length<0.6 ? "😭" : score/Data.length<0.6 && score/Data.length<=0.8 ? "😊" : "🤩"}</h1>
-          <button onClick={restart} className="button">Boshlash</button>
+          <button onClick={restart} className="button">Takrorlash</button>
         </div>
     </div>}
     </>
