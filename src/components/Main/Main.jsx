@@ -91,7 +91,7 @@ function Main({setOnQuiz,select,setSelect,number,setNumber}) {
               <li ref={Option4} onClick={(e)=>{checkAns(e,4)}} className="item">{question.answers.ans4}</li>
             </ul>
             <p className="text"> {index+1}/{Data.length} </p>
-            <button onClick={next} className="button">Next</button>
+            <button onClick={next} className="button">Keyingi</button>
           </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ function Main({setOnQuiz,select,setSelect,number,setNumber}) {
     {modalShow && <div className='modal'>
         <div className="container">
           <h1 className="modal-title">Siz {score} ta savolga to'g'ri javob berdingiz {score/Data.length<0.6 ? "😭" : score/Data.length<0.6 && score/Data.length<=0.8 ? "😊" : "🤩"}</h1>
-          <button onClick={restart} className="button">Restart</button>
+          <button onClick={restart} className="button">Boshlash</button>
         </div>
     </div>}
     </>

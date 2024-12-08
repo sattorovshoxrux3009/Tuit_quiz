@@ -4,7 +4,7 @@ import latex from "../../img/latex.png"
 import computer from "../../img/cisco.png"
 import psixologiya from "../../img/psixologiya.png"
 import talimnazariya from "../../img/talimnazariya.jpg"
-import psixologiya2 from "../../img/psixologiya2.jpg"
+import psixologiya2 from "../../img/psixologiya2.png"
 import web from "../../img/web.png"
 function Subjects({setOnQuiz,select,setSelect,number,setNumber}) {
   return (
