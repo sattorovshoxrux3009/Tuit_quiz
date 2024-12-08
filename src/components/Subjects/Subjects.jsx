@@ -94,7 +94,7 @@ function Subjects({setOnQuiz,select,setSelect,number,setNumber}) {
             <li   >
               <h4>Kompyuter tarmoqlari</h4>
               <span>
-                <h3>Latexga kirish </h3>
+                <h3>Web dasturlash</h3>
                 <div>
                   <h5>Savollar sonini tanlang</h5>
                   <select value={number} onChange={(e)=>{setNumber(e.target.value)}} name="" id="">
