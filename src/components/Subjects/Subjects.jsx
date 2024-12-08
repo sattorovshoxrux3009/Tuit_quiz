@@ -5,6 +5,7 @@ import computer from "../../img/cisco.png"
 import psixologiya from "../../img/psixologiya.png"
 import talimnazariya from "../../img/talimnazariya.jpg"
 import psixologiya2 from "../../img/psixologiya2.jpg"
+import web from "../../img/web.png"
 function Subjects({setOnQuiz,select,setSelect,number,setNumber}) {
   return (
     <div className="subjects">
@@ -92,7 +93,7 @@ function Subjects({setOnQuiz,select,setSelect,number,setNumber}) {
               </span>
             </li>
             <li   >
-              <h4>Kompyuter tarmoqlari</h4>
+            <img src={web} alt="" />
               <span>
                 <h3>Web dasturlash</h3>
                 <div>
