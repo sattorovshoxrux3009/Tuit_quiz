@@ -2,15 +2,19 @@ import './Main.scss'
 import {  useRef, useState } from 'react';
 import  computer  from '../../../public/Data/computer.js';
 import  Latex from "../../../public/Data/Latex.js"
+import pedagogika from '../../../public/Data/pedagogika.js';
+import talimnazariya from '../../../public/Data/talimnazariya.js';
+import talimpsixologiya from '../../../public/Data/talimpsixologiya.js';
+import webcoder from '../../../public/Data/webcoder.js';
 
 function Main({setOnQuiz,select,setSelect,number,setNumber}) {
   const subjects= [
     computer,
     Latex,
-    computer,
-    computer,
-    computer,
-    computer
+    pedagogika,
+    talimnazariya,
+    talimpsixologiya,
+    webcoder
   ]
   const subject=subjects[select-1];
   let shuffledQuestions = subject.sort(() => Math.random() - 0.5);
