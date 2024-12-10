@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import "./Navbar.scss"
 import left from "../../img/x-solid(1).svg"
 import logo from "../../img/logo.png"
+import hero from "../../img/quvonchbek.jpg"
 
 function Navbar({setOnQuiz,onQuiz}) {
     const [time,settime]=useState('')
@@ -41,6 +42,7 @@ function Navbar({setOnQuiz,onQuiz}) {
                 <h4>{day}</h4>
             </span>
             {onQuiz && <img src={left} className="left" onClick={()=>{setOnQuiz(false)}} alt="" />}
+            {!onQuiz && <img className="hero " src={hero}></img>}
         </div>
     </div>
   )
